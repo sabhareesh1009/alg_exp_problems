@@ -1,7 +1,7 @@
 /* Array with non empty integers and need to find three number sum equal to target sum; 
 need the retun tha array of all triplets in ascending order */
 
-// O(N^2) time complexity | O(N^2) space complexity
+// O(N^2) time complexity | O(N^2) space complexity 
 function threeNumberSum(array, targetSum) {
   array.sort((a, b) => a - b);
   const tripplets = [];
