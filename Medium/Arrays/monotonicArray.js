@@ -37,7 +37,7 @@ function isMonotonic(array) {
   // Write your code here.
   let isNonDecreasing = true;
   let isNonIncreasing = true;
-  for (let i = 0; i < array.length; i++) {
+  for (let i = 1; i < array.length; i++) {
     if (array[i] < array[i - 1]) isNonDecreasing = false;
     if (array[i] > array[i - 1]) isNonIncreasing = false;
   }
